@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" width="800" height="680" role="img" aria-label="Partners Through Postpartum">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3E5A78"/>
+      <stop offset="1" stop-color="#243748"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.6">
+      <stop offset="0" stop-color="#4d6c8d" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#243748" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="680" fill="url(#g)"/>
+  <rect width="800" height="680" fill="url(#glow)"/>
+  <!-- concentric embrace arcs -->
+  <g fill="none" stroke="#EFEBE1" stroke-opacity="0.16" stroke-width="1.4">
+    <circle cx="400" cy="335" r="250"/>
+    <circle cx="400" cy="335" r="205"/>
+  </g>
+  <!-- heart from two cupped arcs -->
+  <path d="M400 470 C 300 388 300 300 358 300 C 393 300 400 340 400 352 C 400 340 407 300 442 300 C 500 300 500 388 400 470 Z"
+        fill="none" stroke="#EFEBE1" stroke-opacity="0.92" stroke-width="2.4" stroke-linejoin="round"/>
+  <!-- nestled newborn -->
+  <circle cx="400" cy="360" r="17" fill="#EFEBE1" fill-opacity="0.95"/>
+  <!-- sparkles -->
+  <g fill="#EFEBE1" fill-opacity="0.8">
+    <path d="M250 250 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4 z"/>
+    <path d="M560 230 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z"/>
+    <path d="M540 430 l2.5 7 7 2.5 -7 2.5 -2.5 7 -2.5 -7 -7 -2.5 7 -2.5 z"/>
+  </g>
+</svg>
